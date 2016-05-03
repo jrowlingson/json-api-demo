@@ -14,7 +14,7 @@ curl http://localhost:3000/friends -X POST \
 
 
 curl http://localhost:3000/friends -X POST \
-  -H 'Content-Type: application/vnd.api+json' \
+  -H 'Content-Type: application/vnd.api+json' \-
   --data-binary '{"data":{"type":"friends","attributes":{"first-name": "Cyril","last-name":"Neveu"}}}' | jq
 
 curl http://localhost:3000/friends -X POST \

@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   jsonapi_resources :friends
+  jsonapi_resources :articles
+  jsonapi_resources :loans
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
